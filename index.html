@@ -12,19 +12,25 @@
 <body>
   <nav class="navbar">
     <div class="container">
-      <a href="#home" class="logo">Hinal Patel</a>
+      <a href="#" class="logo">Hinal Patel</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#certification">Certifications</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
+
   <section id="home">
     <div class="container home-content">
-      <h1 id="typewriter"></h1>
+      <h2 id="typewriter"></h2>
       <p>Aspiring Data Analyst | Software Engineer</p>
       <a href="Hinal_Patel_CV.pdf" class="btn" target="_blank" download>Download Resume</a>
     </div>
@@ -33,13 +39,14 @@
   <section id="about" class="section-padding">
     <div class="container">
       <h2>About Me</h2>
-      <p>I’m a detail-oriented and performance-driven Software Engineer with over 3 years of experience 
-      in building robust, scalable, and secure web applications using PHP, Laravel, and MySQL. 
-      I have a proven ability to lead cross-functional teams, develop backend applications, and 
-      design RESTful APIs. My expertise extends to modern backend architecture, testing, and cloud platforms, 
-      with a strong commitment to writing clean, maintainable code following industry best practices. 
-      Recently, I have developed a keen interest in data analysis, exploring ways to extract meaningful 
-      insights from data to drive informed decisions. I have worked on 15+ projects.</p>
+      <p>I’m a detail-oriented and performance-driven Software Engineer with over 3 years of experience in building
+        robust, scalable, and secure web applications using PHP, Laravel, and MySQL. I have a proven ability to lead
+        cross-functional teams, develop backend applications, and design RESTful APIs. My expertise extends to modern
+        backend architecture, testing, and cloud platforms, with a strong commitment to writing clean, maintainable code
+        following industry best practices. I have successfully delivered 15+ projects. Recently, I completed my Master’s
+        in Computer Science, further enhancing my expertise in machine learning, cloud computing, data analysis, and
+        neural networks. I have developed a strong interest in leveraging data analysis to extract meaningful
+        insights that drive informed decision-making.</p>
     </div>
   </section>
   <section id="skills" class="section-padding">
@@ -93,18 +100,67 @@
     <div class="container">
       <h2>Projects</h2>
       <div class="projects-grid">
-        <a href="project1.html" class="project-card">
+        <a class="project-card">
+          <h3>Titanic Survival Pattern Analysis</h3>
+          <p>Performed a detailed exploratory data analysis on the Titanic passenger dataset to identify survival
+            patterns and factors that influenced passenger survival. Analyzed key variables including age, gender,
+            passenger class, and fare to uncover trends and disparities in survival rates. Visualized findings to
+            highlight which groups were most vulnerable and derived actionable insights about passenger demographics and
+            socio-economic status that impacted survival during the tragedy. This analysis provides a comprehensive
+            understanding of the factors that shaped survival outcomes aboard the Titanic.
+          </p>
+        </a>
+        <a class="project-card">
           <h3>Customer Churn Prediction - predictive analytics project</h3>
-          <p>Developed a Customer Churn Prediction model to help businesses identify customers at risk of leaving. Using data analysis and machine learning techniques, I processed customer data to uncover key patterns and factors influencing churn. The model was trained and validated with multiple algorithms to ensure accuracy and reliability. This predictive insight enables targeted retention strategies, helping improve customer loyalty and reduce revenue loss.</p>
+          <p>Developed a Customer Churn Prediction model to help businesses identify customers at risk of leaving. Using
+            data analysis and machine learning techniques, I processed customer data to uncover key patterns and factors
+            influencing churn. The model was trained and validated with multiple algorithms to ensure accuracy and
+            reliability. This predictive insight enables targeted retention strategies, helping improve customer loyalty
+            and reduce revenue loss.</p>
         </a>
-        <a href="project2.html" class="project-card">
+        <a class="project-card">
           <h3>Online live learning - online learning platform</h3>
-          <p>Developed and maintained the backend of an online live learning platform using Laravel and MySQL. I actively participated in requirement gathering and led the team to deliver key features such as secure user authentication, session management, and course scheduling. I designed and optimized database models for efficient data handling and collaborated closely with front-end developers to ensure a seamless user experience. Additionally, implemented API endpoints, integrated third-party services like Zoom and Razorpay for video conferencing and payment processing, and utilized GitLab for version control and team collaboration. I also employed Postman for API testing and contributed to continuous integration and development processes to ensure reliability and quality.</p>
+          <p>Developed and maintained the backend of an online live learning platform using Laravel and MySQL. I
+            actively participated in requirement gathering and led the team to deliver key features such as secure user
+            authentication, session management, and course scheduling. I designed and optimized database models for
+            efficient data handling and collaborated closely with front-end developers to ensure a seamless user
+            experience. Additionally, implemented API endpoints, integrated third-party services like Zoom and Razorpay
+            for video conferencing and payment processing, and utilized GitLab for version control and team
+            collaboration. I also employed Postman for API testing and contributed to continuous integration and
+            development processes to ensure reliability and quality.</p>
         </a>
-        <a href="project3.html" class="project-card">
+        <a class="project-card">
           <h3>Go Thrive Go - Plateform for trauma survivors</h3>
-          <p>Built a Laravel web application with MySQL following MVC architecture and clean code principles. Collaborating closely with UI/UX designers, frontend developers, and stakeholders, contributed to requirement gathering and sprint planning.Designed efficient database schemas and integrated Stripe payment processing with webhooks and subscription management. To boost application performance, I optimized complex SQL queries and database structures, while developing and documenting scalable RESTful APIs with versioning. I conducted unit and integration testing, debugging, and performance tuning to ensure a reliable product. Using GitLab, I managed CI/CD pipelines and facilitated Agile-based code collaboration. Throughout, I maintained secure and standards-compliant code through thorough peer reviews.</p>
+          <p>Built a Laravel web application with MySQL following MVC architecture and clean code principles.
+            Collaborating closely with UI/UX designers, frontend developers, and stakeholders, contributed to
+            requirement gathering and sprint planning.Designed efficient database schemas and integrated Stripe payment
+            processing with webhooks and subscription management. To boost application performance, I optimized complex
+            SQL queries and database structures, while developing and documenting scalable RESTful APIs with versioning.
+            I conducted unit and integration testing, debugging, and performance tuning to ensure a reliable product.
+            Using GitLab, I managed CI/CD pipelines and facilitated Agile-based code collaboration. Throughout, I
+            maintained secure and standards-compliant code through thorough peer reviews.</p>
         </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="certifications" class="section-padding">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="certifications-list">
+        <div class="cert-card">
+          <h3>Employee of the Year Award</h3>
+          <p>Issued by Wappzo Infotech pvt. ltd.</p>
+        </div>
+        <div class="cert-card">
+          <h3>'Project Management Foundation' course</h3>
+          <p>Completed on LinkedIn</p>
+        </div>
+        <div class="cert-card">
+          <h3>'Getting Started with AWS S3' course</h3>
+          <p>Completed on LinkedIn</p>
+        </div>
       </div>
     </div>
   </section>
@@ -115,7 +171,7 @@
       <p style="font-size: 1.15rem; color: #444; line-height: 1.6;">
         If you’d like to get in touch, feel free to reach out to me directly via email at
         <a href="mailto:patelhinal327@gmail.com" style="color: #0077cc; font-weight: bold;">patelhinal327@gmail.com</a>.
-        I’m always happy to connect and will respond as soon as possible!
+        I’m always happy to connect and will respond as soon as possible. Thank You!
       </p>
 
       <div class="social-links" style="font-size: 1.15rem; font-weight: 600;">
@@ -125,19 +181,15 @@
       </div>
     </div>
   </section>
-
-
   <footer>
     <div class="container footer-content">
       &copy; 2025 Hinal Patel. All rights reserved.
     </div>
   </footer>
-
 </body>
 <script>
   const text = "Hi, My name is Hinal Patel";
   let index = 0;
-
   function typeWriter() {
     if (index < text.length) {
       document.getElementById("typewriter").innerHTML += text.charAt(index);
